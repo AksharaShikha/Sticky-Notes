@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+#addNote{
+    padding:10px 20px;
+    font-size:16px;
+    margin:20px;
+    cursor:pointer;
+}
+
+#notesContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.note{
+    background:#fff8a6;
+    width:200px;
+    padding:10px;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.note textarea{
+    width:100%;
+    height:120px;
+    border:none;
+    outline:none;
+    background:transparent;
+    resize:none;
+}
+
+.deleteBtn{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+    margin-top:5px;
+}
